@@ -1,4 +1,4 @@
 # AndroidVersionPOS
 Android punto de venta (impresora con cable SIN bluetooth)
-# AndroidVersionPOS
-# AndroidVersionPOS
+
+Version 2024 con eporte de ventas
