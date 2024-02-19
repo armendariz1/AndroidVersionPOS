@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Apuesta"
+        android:id="@+id/rowidApuesta"
+        android:inputType="text"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:width="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Numero"
+        android:id="@+id/rowNumero"
+        android:inputType="text"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:width="110dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Primero"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:id="@+id/rowAp1"
+        android:inputType="text"
+        android:width="110dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Segundo"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:id="@+id/rowAp2"
+        android:inputType="text"
+        android:width="110dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Tercero"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:id="@+id/rowAp3"
+        android:inputType="text"
+        android:width="110dp" />
+
+  </LinearLayout>

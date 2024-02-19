@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+        <TableRow>
+
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_gravity="center"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+        <TableRow>
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Ventas"
+        android:textSize="26sp"
+        android:id="@+id/btnVentas"
+        android:background="@android:drawable/btn_default"/>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Editar Ticket"
+        android:textSize="26sp"
+        android:id="@+id/btnConsTicket"
+        android:background="@android:drawable/btn_default" />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Consulta Premio"
+        android:textSize="26sp"
+        android:id="@+id/btnConsPremio"
+        android:background="@android:drawable/btn_default" />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text=" Reporte de Venta"
+        android:textSize="26sp"
+        android:id="@+id/btnReporteVenta"
+        android:background="@android:drawable/btn_default" />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Salir"
+        android:textSize="26sp"
+        android:id="@+id/btnSalir"
+        android:background="@android:drawable/btn_default" />
+
+
+</LinearLayout>

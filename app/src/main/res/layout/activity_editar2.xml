@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TableLayout
+                android:layout_width="682dp"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvwUsuario"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=" Usuario: "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="28sp" />
+
+                    <TextView
+                        android:id="@+id/tvwFecha"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Fecha: "
+                        android:textAlignment="textEnd"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="28sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvwSorteo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Sorteo:   "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="28sp" />
+
+                    <Spinner
+                        android:id="@+id/lvwSorteos"
+                        android:layout_width="221dp"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_default" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvwUltTicket"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ultimo Ticket: "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/txtUltTicket"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvwCantAp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="           Apuestas: "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/txtCantAp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="20sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvwNumero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Número: "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="28sp" />
+
+                    <EditText
+                        android:id="@+id/txtNumero"
+                        android:layout_width="116dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="5"
+                        android:textSize="28sp" />
+
+                    <TextView
+                        android:id="@+id/tvwSpace12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="                      "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="28sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvwLugar1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 1 Lugar:  "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="28sp" />
+
+                    <EditText
+                        android:id="@+id/txtLugar1"
+                        android:layout_width="116dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="5"
+                        android:textSize="28sp" />
+
+                    <TextView
+                        android:id="@+id/tvwSpace4"
+                        android:layout_width="80dp"
+                        android:layout_height="15dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="28sp" />
+
+                    <TextView
+                        android:id="@+id/tvwTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="             Total: "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/txtTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="20sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvwLugar2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 2 Lugar:  "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="28sp" />
+
+                    <EditText
+                        android:id="@+id/txtLugar2"
+                        android:layout_width="116dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="5"
+                        android:textSize="28sp" />
+
+                    <TextView
+                        android:id="@+id/tvwSpace5"
+                        android:layout_width="80dp"
+                        android:layout_height="15dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="28sp" />
+
+                    <Button
+                        android:id="@+id/btnLimpiar"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:background="@android:drawable/btn_default"
+                        android:text="Limpiar"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvwLugar3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 3 Lugar:  "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="28sp" />
+
+                    <EditText
+                        android:id="@+id/txtLugar3"
+                        android:layout_width="116dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:maxLength="5"
+                        android:textSize="28sp" />
+
+                    <TextView
+                        android:id="@+id/tvwSpace14"
+                        android:layout_width="80dp"
+                        android:layout_height="15dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="28sp" />
+
+                    <Button
+                        android:id="@+id/btnAgregar"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:background="@android:drawable/btn_default"
+                        android:text="Agregar"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </TableLayout>
+
+            <TableLayout>
+                <TableRow>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvwEncApuesta"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:width="95dp"
+                            android:inputType="text"
+                            android:text="ID"
+                            android:textAlignment="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tvwEncNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:width="95dp"
+                            android:inputType="text"
+                            android:text="Numero"
+                            android:textAlignment="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tvwEncUno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:width="95dp"
+                            android:inputType="text"
+                            android:text="Primero"
+                            android:textAlignment="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tvwEncDos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:width="95dp"
+                            android:inputType="text"
+                            android:text="Segundo"
+                            android:textAlignment="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tvwEncTres"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:width="95dp"
+                            android:inputType="text"
+                            android:text="Tercero"
+                            android:textAlignment="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="18sp" />
+
+
+
+                    </LinearLayout>
+                </TableRow>
+                <TableRow>
+                    <GridView
+                        android:id="@+id/gvApuestas"
+                        android:layout_width="500dp"
+                        android:layout_height="500dp"
+                        android:layout_gravity="center_horizontal"
+                        android:numColumns="5" />
+                </TableRow>
+
+            </TableLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TableLayout
+                android:layout_width="704dp"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:ems="10"
+                        android:id="@+id/txtCopiar"
+                        android:maxLength="16"
+                        android:textSize="25sp"
+                        android:inputType="number"
+                        android:hint="Ticket a copiar" />
+
+
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:text="Copiar"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:id="@+id/btnCopiar"
+                        android:background="@android:drawable/btn_default" />
+
+
+                </TableRow>
+                <TableRow>
+                    <LinearLayout
+                        android:layout_height="10dp"></LinearLayout>
+                </TableRow>
+                <TableRow>
+                    <Button
+
+                        android:text="Imprimir"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:id="@+id/btnImprimir"
+                        android:background="@android:drawable/btn_default" />
+
+                    <Button
+
+                        android:text="Cancelar"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:id="@+id/btnCancelar"
+                        android:background="@android:drawable/btn_default" />
+
+                    <Button
+
+                        android:text="Salir"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:id="@+id/btnSalir"
+                        android:background="@android:drawable/btn_default" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+
+            </LinearLayout>
+
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
+
+
+
+
+
